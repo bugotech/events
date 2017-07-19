@@ -1,5 +1,5 @@
 auto-service: bugotech.events
 
 services:
- - \Bugotech\Http\SessionServiceProvider
- - \Bugotech\Http\HttpServiceProvider
+ - \Bugotech\Events\EventServiceProvider
+ - \Illuminate\Queue\QueueServiceProvider
